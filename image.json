@@ -1,0 +1,12 @@
+{
+    "model_config": "../../../res/models/detection/yolov3",
+    "input": {
+        "type": "image",
+        "path": "../../../res/models/detection/yolov3/img/RBC.jpg"
+    },
+    "debug": {
+        "display_enable": true,
+        "predict_log_enable": true,
+        "predict_time_log_enable": false
+    }
+}

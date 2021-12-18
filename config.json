@@ -1,0 +1,16 @@
+{
+	"network_type":"YOLOV3",
+
+	"model_file_name":"__model__",
+	"params_file_name":"__params__",
+
+	"labels_file_name":"label_list.txt",
+
+	"format":"RGB",
+	"input_width":608,
+	"input_height":608,
+		
+	"mean":[123.675, 116.28, 103.53],
+    "scale":[0.0171248, 0.017507, 0.0174292],
+	"threshold":0.01
+}
